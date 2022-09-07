@@ -2170,6 +2170,66 @@ Users with this role can manage [Teams-certified devices](https://www.microsoft.
 > | microsoft.office365.webPortal/allEntities/standard/read | Read basic properties on all resources in the Microsoft 365 admin center |
 > | microsoft.teams/devices/standard/read | Manage all aspects of Teams-certified devices including configuration policies |
 
+## Tenant Creator
+  
+Create new Azure AD or Azure AD B2C tenants.
+> [!div class="mx-tableFixed"]
+> | Actions | Description |
+> | --- | --- |
+> | microsoft.directory/administrativeUnits/standard/read | Read basic properties on administrative units |
+ > | microsoft.directory/administrativeUnits/members/read | Read members of administrative units |
+ > | microsoft.directory/applications/standard/read | Read standard properties of applications |
+ > | microsoft.directory/applications/owners/read | Read owners of applications |
+ > | microsoft.directory/applications/policies/read | Read policies of applications |
+ > | microsoft.directory/contacts/standard/read | Read basic properties on contacts in Azure AD |
+ > | microsoft.directory/contacts/memberOf/read | Read the group membership for all contacts in Azure AD |
+ > | microsoft.directory/contracts/standard/read | Read basic properties on partner contracts |
+ > | microsoft.directory/devices/standard/read | Read basic properties on devices |
+ > | microsoft.directory/devices/memberOf/read | Read device memberships |
+ > | microsoft.directory/devices/registeredOwners/read | Read registered owners of devices |
+ > | microsoft.directory/devices/registeredUsers/read | Read registered users of devices |
+ > | microsoft.directory/directoryRoles/standard/read | Read basic properties of Azure AD roles |
+ > | microsoft.directory/directoryRoles/eligibleMembers/read | Read the eligible members of Azure AD roles |
+ > | microsoft.directory/directoryRoles/members/read | Read all members of Azure AD roles |
+ > | microsoft.directory/domains/standard/read | Read basic properties on domains |
+ > | microsoft.directory/groups/standard/read | Read standard properties of Security groups and Microsoft 365 groups, including role-assignable groups |
+ > | microsoft.directory/groups/appRoleAssignments/read | Read application role assignments of groups |
+ > | microsoft.directory/groups/memberOf/read | Read the memberOf property on Security groups and Microsoft 365 groups, including role-assignable groups |
+ > | microsoft.directory/groups/members/read | Read members of Security groups and Microsoft 365 groups, including role-assignable groups |
+ > | microsoft.directory/groups/owners/read | Read owners of Security groups and Microsoft 365 groups, including role-assignable groups |
+ > | microsoft.directory/groups/settings/read | Read settings of groups |
+ > | microsoft.directory/groupSettings/standard/read | Read basic properties on group settings |
+ > | microsoft.directory/groupSettingTemplates/standard/read | Read basic properties on group setting templates |
+ > | microsoft.directory/oAuth2PermissionGrants/standard/read | Read basic properties on OAuth 2 |0 permission grants |
+ > | microsoft.directory/organization/standard/read | Read basic properties on an organization |
+ > | microsoft.directory/organization/trustedCAsForPasswordlessAuth/read | Read trusted certificate authorities for passwordless authentication |
+ > | microsoft.directory/applicationPolicies/standard/read | Read standard properties of application policies |
+ > | microsoft.directory/roleAssignments/standard/read | Read basic properties on role assignments |
+ > | microsoft.directory/roleDefinitions/standard/read | Read basic properties on role definitions |
+ > | microsoft.directory/servicePrincipals/appRoleAssignedTo/read | Read service principal role assignments |
+ > | microsoft.directory/servicePrincipals/appRoleAssignments/read | Read role assignments assigned to service principals |
+ > | microsoft.directory/servicePrincipals/standard/read | Read basic properties of service principals |
+ > | microsoft.directory/servicePrincipals/memberOf/read | Read the group memberships on service principals |
+ > | microsoft.directory/servicePrincipals/oAuth2PermissionGrants/read | Read delegated permission grants on service principals |
+ > | microsoft.directory/servicePrincipals/owners/read | Read owners of service principals |
+ > | microsoft.directory/servicePrincipals/ownedObjects/read | Read owned objects of service principals |
+ > | microsoft.directory/servicePrincipals/policies/read | Read policies of service principals |
+ > | microsoft.directory/subscribedSkus/standard/read | Read basic properties on subscriptions |
+ > | microsoft.directory/users/standard/read | Read basic properties on users |
+ > | microsoft.directory/users/appRoleAssignments/read | Read application role assignments for users |
+ > | microsoft.directory/users/deviceForResourceAccount/read | Read deviceForResourceAccount of users |
+ > | microsoft.directory/users/directReports/read | Read the direct reports for users |
+ > | microsoft.directory/users/licenseDetails/read | Read license details of users |
+ > | microsoft.directory/users/manager/read | Read manager of users |
+ > | microsoft.directory/users/memberOf/read | Read the group memberships of users |
+ > | microsoft.directory/users/oAuth2PermissionGrants/read | Read delegated permission grants on users |
+ > | microsoft.directory/users/ownedDevices/read | Read owned devices of users |
+ > | microsoft.directory/users/ownedObjects/read | Read owned objects of users |
+ > | microsoft.directory/users/photo/read | Read photo of users |
+ > | microsoft.directory/users/registeredDevices/read | Read registered devices of users |
+ > | microsoft.directory/users/scopedRoleMemberOf/read | Read user's membership of an Azure AD role, that is scoped to an administrative unit |
+  
+
 ## Usage Summary Reports Reader
 
 Users with this role can access tenant level aggregated data and associated insights in Microsoft 365 admin center for Usage and Productivity Score but cannot access any user level details or insights. In Microsoft 365 admin center for the two reports, we differentiate between tenant level aggregated data and user level details. This role gives an extra layer of protection on individual user identifiable data, which was requested by both customers and legal teams.
